@@ -1,28 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-body {
-  display: flex;
-  justify-content: center;
-  background: gray;
-  font-size: 26px;
-}
+body { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; background: gray; font-size: 26px; }
 
-.container {
-  position: relative;
-  height: 400px;
-  width: 400px;
-  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
-}
+.container { position: relative; height: 400px; width: 400px; background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%); }
 
-.style {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(to top right, #00ffff 0%, #ff6600 77%);
-}
-
-/*# sourceMappingURL=style.css.map */
+.style { position: absolute; width: 50px; height: 50px; background: rgba(0, 0, 0, 0); }

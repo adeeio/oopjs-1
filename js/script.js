@@ -38,7 +38,6 @@ Phone.prototype.animate = function(){
     function frame() {
         if(pos == 350) {
             pos = 0;
-           
         }
         else {
             pos++;
@@ -54,3 +53,8 @@ var nokia = new Phone("nokia", 1490, "red", "n-gage");
 
 
 
+iPhone6S.animate();
+nokia.customMobile("100px", "400px");
+
+samsungGalaxyS6.animate();
+samsungGalaxyS6.customMobile("100px", "100px");
